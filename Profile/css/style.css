@@ -1,0 +1,147 @@
+.row{
+	width: 97vw;
+	display: flex;
+	background-color: #000000;
+}
+.logo{
+	width: 10vw;
+	height: 10vh;
+}
+.logo img{
+	width: 10vw;
+	height: 10vh;
+}
+.header{
+	width: 87vw;
+	color: white;
+	background-color:lightslategray;
+	box-shadow:1px 2px 3px rgba(0,0,0,0.5);
+	text-align: center;
+}	
+.tabs{
+	height: 10vh;
+	width: 97vw;
+	display: flex;
+	justify-content: center;
+}
+.link, .link a{
+	color: orange;
+	text-decoration:none;
+	margin-left: 2vw;
+	margin-top:3vh;
+}
+.row-tabs{
+	background-color: gray;
+	box-shadow:1px 1px 12px rgba(0,0,0,1)
+}
+.row1{
+	width: 97vw;
+	display: flex;
+}
+.menu{
+	width: 20vw;
+	height: 68vh;
+	background-color:lightslategray;
+	color: black;
+	box-shadow:1px 2px 10px rgba(0,0,0,1);
+}
+.pages{
+	width: 77vw;
+	background-color:darkgray;
+	margin-left:0vw;
+	box-shadow:1px 2px 10px rgba(0,0,0,1);
+
+}
+.pages h1,p{
+	margin-left:6vw;
+}
+.footer{
+	width: 97vw;
+	height: 10vh;
+	display: flex;
+	justify-content: center;
+	background-color:gray;
+	color: white;
+	box-shadow:1px 2px 10px rgba(0,0,0,1);
+}
+.footer .copyright{
+	font-size: 22px;
+}
+.register-form{
+	margin-left: 20vw;
+	margin-top: 5vh;
+}
+.admin-menu{
+	width: 20vw;
+	height: 80vh;
+	background-color: black;
+	color: white;
+
+
+}
+.admin-menu ul{
+	margin-left: 5vw;
+}
+.admin-users-list
+{
+	width: 50%;
+	margin-left:20vw ;
+	margin-top: 10vh;
+}
+form{
+	width:25vw;
+	height:60vh;
+	margin-left:2vw;
+	background-color:lightblue;
+}
+input{
+	margin-left:3.5vw;
+	margin-top:3vw;
+}
+.profile_picture{
+	margin-left:3.4vw;
+}
+.file{
+	background-color:cyan;
+	width:20vw;
+}
+.register{
+	margin:15px 70px;
+	width:10vw;
+	height:5vh;
+	border:1px solid blue;
+	background-color: transparent;
+}
+
+.register:hover {
+  transform: scale(1.2);
+  transition:2s;
+}
+.login_form{
+	height:50vh;
+	width:25vw;
+}
+h2{
+	margin-left:4vw;
+}
+h3{
+	margin-left:7.5vw;
+	font-size:30px;
+}
+.login{
+	width: 10vw;
+	height:5vh;
+	margin-left:7vw;
+	font-family: "montserrat"sans-serif;
+	text-transform:capitalize;
+	background:-webkit-linear-gradient(0deg,transparent 50%,#27e8a7 50%);
+	background-size:400px 80px;
+	border: 1px solid #27e8a7;
+	transition:3s;
+}
+.login:hover{
+	background-position: 200px 0;
+  }
+.user_pictures{
+	border-radius:200px;
+}
